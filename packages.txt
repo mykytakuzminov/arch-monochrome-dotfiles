@@ -1,0 +1,17 @@
+alacritty
+btop
+fastfetch
+hyprland
+hyprpaper
+hyprshot
+qt5-wayland
+qt6-wayland
+starship
+ttf-ubuntu-mono-nerd
+waybar
+wayland-protocols
+wofi
+xdg-desktop-portal-hyprland
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
