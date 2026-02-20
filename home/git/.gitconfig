@@ -1,0 +1,15 @@
+[user]
+  name = "Mykyta Kuzminov"
+  email = "mykytakuzminov@gmail.com"
+
+[init]
+  defaultBranch = main 
+
+[core]
+  editor = nvim
+
+[pull]
+  rebase = true
+
+[color]
+  ui = auto
