@@ -20,11 +20,6 @@
       "format": "┏━━━━━━━━━━━━━━━ System ━━━━━━━━━━━━━━━┓"
     },
     {
-      "type": "title",
-      "key": "    User     ",
-      "format": "{1}"
-    },
-    {
       "type": "os",
       "key": "  󰣇  System   ",
       "format": "{2}"
@@ -35,14 +30,22 @@
       "format": "{2}"
     },
     {
-      "type": "localip",
-      "key": "  󰖟  Local IP ",
-      "format": "{1}"
-    },
-    {
       "type": "packages",
       "key": "  󰏖  Packages ",
       "format": "{1}"
+    },
+    {
+      "type": "title",
+      "key": "    User     ",
+      "format": "{1}"
+    },
+    {
+      "type": "localip",
+      "key": "  󰖟  Local IP "
+    },
+    {
+      "type": "uptime",
+      "key": "  󱎫  Uptime   "
     },
     {
       "type": "custom",
@@ -56,22 +59,19 @@
     {
       "type": "shell",
       "key": "    Shell    ",
-      "format": "{1}"
+      "format": "Zsh"
     },
     {
       "type": "terminal",
       "key": "    Terminal ",
-      "format": "{1}"
+      "format": "Alacritty"
     },
     {
       "type": "display",
       "key": "  󰍹  Display  ",
       "format": "{1}x{2} @ {3}Hz"
     },
-    {
-      "type": "uptime",
-      "key": "  󱎫  Uptime   "
-    },
+
     {
       "type": "custom",
       "format": "┣━━━━━━━━━━━━━━ Hardware ━━━━━━━━━━━━━━┫"
@@ -93,13 +93,13 @@
     },
     {
       "type": "disk",
-      "key": "  󰋊  Disk (/) ",
+      "key": "  󰋊  Root     ",
       "folders": "/",
       "format": "{1} / {2}"
     },
     {
       "type": "disk",
-      "key": "  󰋊  Disk (H) ",
+      "key": "  󰋊  Home     ",
       "folders": "/home",
       "format": "{1} / {2}"
     },
