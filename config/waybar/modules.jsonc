@@ -18,17 +18,9 @@
   },
 
   "network": {
-    "format-wifi": "{icon}",
-    "format-ethernet": "{icon}",
-    "format-disconnected": "󰤮 ",
-    "format-icons": ["󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
-    "tooltip": false
-  },
-
-  "bluetooth": {
-    "format": "",
-    "format-connected": "󰂱 ",
-    "format-disabled": "󰂲 ",
+    "format-wifi": " ",
+    "format-ethernet": " ",
+    "format-disconnected": "  ",
     "tooltip": false
   }
 }
