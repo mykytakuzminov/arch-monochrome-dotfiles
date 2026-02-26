@@ -8,8 +8,5 @@
 [core]
   editor = nvim
 
-[pull]
-  rebase = true
-
 [color]
   ui = auto
