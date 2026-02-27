@@ -9,7 +9,7 @@ return {
           colors.glow = "#fd1b7c"
         end
       })
-      
+
       local function apply_overrides()
         vim.api.nvim_set_hl(0, "Boolean", { fg = "#fd1b7c" })
         vim.api.nvim_set_hl(0, "@boolean", { fg = "#fd1b7c" })
@@ -17,8 +17,8 @@ return {
 
       local function set_transparent()
         local groups = {
-          "Normal", "NormalNC", "EndOfBuffer", "NormalFloat", 
-          "FloatBorder", "SignColumn", "StatusLine", "StatusLineNC", 
+          "Normal", "NormalNC", "EndOfBuffer", "NormalFloat",
+          "FloatBorder", "SignColumn", "StatusLine", "StatusLineNC",
           "TabLine", "TabLineFill", "TabLineSel", "ColorColumn",
         }
         for _, g in ipairs(groups) do
@@ -28,7 +28,7 @@ return {
       end
 
       vim.cmd.colorscheme("monoglow")
-      
+
       apply_overrides()
       set_transparent()
 
