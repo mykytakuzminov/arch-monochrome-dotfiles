@@ -6,13 +6,13 @@ return {
     config = function()
       require("monoglow").setup({
         on_colors = function(colors)
-          colors.glow = "#fd1b7c"
+          colors.glow = "#FFFFFF"
         end
       })
 
       local function apply_overrides()
-        vim.api.nvim_set_hl(0, "Boolean", { fg = "#fd1b7c" })
-        vim.api.nvim_set_hl(0, "@boolean", { fg = "#fd1b7c" })
+        vim.api.nvim_set_hl(0, "Boolean", { fg = "#FFFFFF" })
+        vim.api.nvim_set_hl(0, "@boolean", { fg = "#FFFFFF" })
       end
 
       local function set_transparent()

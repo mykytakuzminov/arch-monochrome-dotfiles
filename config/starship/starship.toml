@@ -1,6 +1,7 @@
-[git_status]
-style = "fg:#fd1b7c"
-format = '([\[$all_status$ahead_behind\]]($style) )'
+[package]
+symbol = " "
+format = "[$symbol](bold white) [$version](bold white) "
+disabled = false
 
 [lua]
 style = "bold white"

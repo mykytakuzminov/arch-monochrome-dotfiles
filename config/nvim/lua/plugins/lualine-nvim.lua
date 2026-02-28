@@ -2,8 +2,8 @@ return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    local accent = "#fd1b7c"
-    local white = "#ffffff"
+    local accent = "#FFFFFF"
+    local white = "#FFFFFF"
     local gray = "#444444"
     local black = "#000000"
 
