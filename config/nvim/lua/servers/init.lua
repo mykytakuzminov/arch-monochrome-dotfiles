@@ -5,7 +5,7 @@ require("servers.pyright")(capabilities)
 require("servers.bashls")(capabilities)
 require("servers.clangd")(capabilities)
 
-require("servers.efm-langserver")(capabilities)
+require("servers.efm")(capabilities)
 
 vim.lsp.enable({
   'lua_ls',
