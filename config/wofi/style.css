@@ -77,7 +77,6 @@ scrollbar {
   background-image: none;
   border: none;
   min-width: 0;
-  width: 0;
 }
 
 scrollbar slider {
@@ -86,6 +85,4 @@ scrollbar slider {
   border: none;
   min-width: 0;
   min-height: 0;
-  width: 0;
-  height: 0;
 }
