@@ -1,9 +1,17 @@
+# ==================================================
+# Alacritty Main Configuration
+# File: alacritty.toml
+# Purpose: Entry point — imports all modular configuration files
+# ==================================================
+
 [general]
+# Import modular configuration files.
+# Order matters: colors -> font -> window -> cursor -> keybinds -> scroll
 import = [
-  "~/.config/alacritty/colors.toml",
-  "~/.config/alacritty/font.toml",
-  "~/.config/alacritty/window.toml",
-  "~/.config/alacritty/cursor.toml",
-  "~/.config/alacritty/keybinds.toml",
-  "~/.config/alacritty/scroll.toml"
+  "~/.config/alacritty/colors.toml",    # color scheme
+  "~/.config/alacritty/font.toml",      # font settings
+  "~/.config/alacritty/window.toml",    # window dimensions and padding
+  "~/.config/alacritty/cursor.toml",    # cursor style
+  "~/.config/alacritty/keybinds.toml",  # custom keybindings
+  "~/.config/alacritty/scroll.toml"     # scrolling behavior
 ]

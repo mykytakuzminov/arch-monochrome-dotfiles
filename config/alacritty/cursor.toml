@@ -1,3 +1,12 @@
+# ==================================================
+# Alacritty Cursor Configuration
+# File: cursor.toml
+# Purpose: Define cursor shape and blinking behavior
+# ==================================================
+
 [cursor]
+# Cursor shape: Block, Underline, or Beam
 style.shape = "Block"
+
+# Cursor blinking: Never, Always, or OnFocus
 style.blinking = "Never"

@@ -1,4 +1,13 @@
+# ==================================================
+# Alacritty Window Configuration
+# File: window.toml
+# Purpose: Define window padding and decorations
+# ==================================================
+
 [window]
+# Horizontal and vertical padding (pixels) inside the terminal window
 padding.x = 12
 padding.y = 12
+
+# Window decorations: "full", "none", or "buttonless"
 decorations = "none"

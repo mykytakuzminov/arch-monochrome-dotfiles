@@ -1,3 +1,12 @@
+# ==================================================
+# Alacritty Scrolling Configuration
+# File: scroll.toml
+# Purpose: Configure scrollback history and scroll speed
+# ==================================================
+
 [scrolling]
+# Maximum number of lines stored in scrollback buffer
 history = 10000
+
+# Scroll speed multiplier for mouse wheel
 multiplier = 3

@@ -1,18 +1,29 @@
+# ==================================================
+# Alacritty Font Configuration
+# File: font.toml
+# Purpose: Define terminal font family, styles, and size
+# ==================================================
+
 [font.normal]
+# Regular text
 family = "UbuntuMono Nerd Font"
 style = "Regular"
 
 [font.bold]
+# Bold text
 family = "UbuntuMono Nerd Font"
 style = "Bold"
 
 [font.italic]
+# Italic text
 family = "UbuntuMono Nerd Font"
 style = "Italic"
 
 [font.bold_italic]
+# Bold + Italic text
 family = "UbuntuMono Nerd Font"
 style = "Bold Italic"
 
 [font]
+# Font size in pixels
 size = 16
