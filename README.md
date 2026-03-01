@@ -4,7 +4,6 @@
 ![Platform: Arch Linux](https://img.shields.io/badge/Platform-Arch_Linux-0078D7.svg)
 ![Display: Wayland](https://img.shields.io/badge/Display-Wayland-4682B4.svg)
 ![Compositor: Hyprland](https://img.shields.io/badge/Compositor-Hyprland-1E90FF.svg)
-![Shell: Zsh](https://img.shields.io/badge/Shell-Zsh-2C2C2C.svg?logo=zsh&logoColor=white)
 ![Prompt: Starship](https://img.shields.io/badge/Prompt-Starship-00CED1.svg)
 ![Terminal: Alacritty](https://img.shields.io/badge/Terminal-Alacritty-2C2C2C.svg?logo=alacritty&logoColor=white)
 ![Editor: Neovim](https://img.shields.io/badge/Editor-Neovim-3ECF8E.svg?logo=neovim&logoColor=white)
@@ -20,7 +19,7 @@ It represents the environment I actually use every day: a Wayland setup built on
 The configuration is intended to be straightforward to understand, reuse, and adapt, while keeping a clean and coherent visual style across the system.
 
 ## 📸 Appearance
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c8269a8-e643-4256-97fb-580d0fe9931c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a595e9ba-46b4-40ba-ae0f-a0f141b3d14a" />
 
 ## 💻 Installation
 
